@@ -1,5 +1,5 @@
-.Toolbar{
-    height: 50px;
+.Toolbar {
+    height: 56px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -8,22 +8,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
 }
 
-.Toolbar nav{
+.Toolbar nav {
     height: 100%;
 }
 
-.Logo{
+.Logo {
     height: 80%;
-    width: 10%;
 }
 
-@media (max-width: 499px){
-    .DesktopOnly{
+@media (max-width: 499px) {
+    .DesktopOnly {
         display: none;
     }
 }
